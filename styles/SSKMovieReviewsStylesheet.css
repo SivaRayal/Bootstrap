@@ -1,3 +1,11 @@
+a {
+    font-family: "Trirong", sans-serif;
+}
+
+.italics {
+    font-style: italic;
+}
+
 .carousel-item img {
     height: 300px;
 }
@@ -12,4 +20,11 @@ h2:before {
     height: 1em;
     border-left: 5px solid #fa320a;
     margin: 3px 0 0 -10px;
+}
+
+
+.ribbon {
+    background:darkorchid;
+    position:relative;
+    width:100%;
 }
