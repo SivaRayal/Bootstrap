@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Assignment Submitted by Siva.Kuruva AKA SivaRayal.</title>
+    <!-- Bootstrap libraries -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- Icons Libraries -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- External Custome Sytelsheets. -->
+    <link href="styles/SSKMovieReviewsStylesheet.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-xl">
+                <a class="navbar-brand" href="#">S.S.K Reviews</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Reviews
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Teasers</a></li>
+                                <li><a class="dropdown-item" href="#">Trailers</a></li>
+                                <li><a class="dropdown-item" href="#">Movies</a></li>
+                                <li><a class="dropdown-item" href="#">Series</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Don't know what to watch ?</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container-xl">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/MI-DedReconTCUpdate.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/InterviewAdviceUpdate.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/TVpremierUpdates.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="container-xl p-3">
+
+            <label> <h2> New & Upcomming Movies</h2></label>
+            <div class="row row-cols-1 row-cols-md-4 g-2 g-lg-3">
+                <div class="col-6">
+                    <div class="card shadow p-1 mb-5 bg-body-tertiary rounded text-bg-dark " style="width: 15rem;">
+                        <img src="images/NewUCMovies1.jpg" class="card-img-top" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">JAWAN</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <i class="bi bi-star-fill checked"></i>
+                            <i class="bi bi-star-fill checked"></i>
+                            <i class="bi bi-star-fill checked"></i>
+                            <i class="bi bi-star-fill checked"></i>
+                            <i class="bi bi-star-half checked"></i>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">Last updated 5 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card shadow p-1 mb-5 bg-body-tertiary rounded text-bg-dark h-90" style="width: 15rem;">
+                        <img src="images/NewUCMovies2.jpg" class="card-img-top" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">SALAAR</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <i class="bi bi-star-fill checked"></i>
+                            <i class="bi bi-star-fill checked"></i>
+                            <i class="bi bi-star-fill checked"></i>
+                            <i class="bi bi-star-fill checked"></i>
+                            <i class="bi bi-star-fill checked"></i>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card shadow p-1 mb-5 bg-body-tertiary rounded text-bg-dark h-85" style="width: 15rem;">
+                        <img src="images/NewUCMovies3.jpg" class="card-img-top h-95" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">JAILER</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <i class="bi bi-star-fill checked"></i>
+                            <i class="bi bi-star-fill checked"></i>
+                            <i class="bi bi-star-fill checked"></i>
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">Last updated 10 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card shadow p-1 mb-5 bg-body-tertiary rounded text-bg-dark h-85" style="width: 15rem;">
+                        <img src="images/NewUCMovies4.jpg" class="card-img-top h-50" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">OMG 2</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <i class="bi bi-star-fill checked"></i>
+                            <i class="bi bi-star-fill checked"></i>
+                            <i class="bi bi-star-half  checked"></i>
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">Last updated 15 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="fixed-bottom text-center">
+            <p>Created by Siva.kuruva AKA SivaRayal.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
