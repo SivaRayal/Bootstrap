@@ -22,9 +22,13 @@ h2:before {
     margin: 3px 0 0 -10px;
 }
 
-
 .ribbon {
-    background:darkorchid;
-    position:relative;
-    width:100%;
+    background: darkorchid;
+    position: relative;
+    width: 100%;
+}
+
+.cardimg {
+    height: 300px;
+    width: auto;
 }
