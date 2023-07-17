@@ -1,4 +1,4 @@
-## BOOTSTRAP ASSIGNMENT
+## BOOTSTRAP ASSIGNMENT - S.S.K MOVIE REVIEWS WEBSITE
 Author - Siva Kuruva.   
 Email - Sivasai.Kuruva@ness.com
 
