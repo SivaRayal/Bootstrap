@@ -1,6 +1,6 @@
 ## BOOTSTRAP ASSIGNMENT - S.S.K MOVIE REVIEWS WEBSITE
 Author - Siva Kuruva.   
-Email - Sivasai.Kuruva@ness.com
+Email - kuruva.siva8055@gmail.com
 
 ### AESTHETICS:
 The intent behind following these aesthetics is to make the web page more visually appealing.
